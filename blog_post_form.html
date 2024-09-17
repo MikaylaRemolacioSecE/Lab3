@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Blog Post Forum</title>
+    <link rel="stylesheet" href="websitestyle.css">
+</head>
+<body>
+    <h1 class="sheader">Blog Post Submission</h1>
+    <form>
+    <div class="title">
+        <label class="bptitle">Blog Post Title:</label><br>
+        <input type="text" id="bptitle" name="bptitle"value=""><br>
+    </div>
+    <div class="name">
+        <label class="aname">Author Name:</label><br>
+        <input type="text" id="aname" name="aname"value=""><br>
+    </div>
+    <div class="content">
+        <label class="bpcontent">Blog Post Content:</label><br>
+        <textarea id="bpcontent" name="bpcontent"></textarea><br>
+    </div>
+
+    <div class="category">
+        <label class="bpcategory">Blog Post Category:</label><br>
+        <select>
+            <option value="none">Select an Option</option>
+            <option value="htg">How-to/Guide</option>
+            <option value="otl">Opinion/Thought Leadership</option>
+            <option value="lst">Listicle</option>
+            <option value="pse">Personal Story/Experience</option>
+            <option value="pr">Product Review</option>
+            <option value="iqa">Interview/Q&A</option>
+            <option value="nu">News/Update</option>
+            <option value="cs">Case Study</option>
+            <option value="ei">Educational/Infomational</option>
+            <option value="cc">Curated Content</option>
+        </select><br>
+    </div>
+
+    <button type="button" onclick="alert('Form Submitted!')">Submit</button>
+
+    </form>
+</body>
+</html>

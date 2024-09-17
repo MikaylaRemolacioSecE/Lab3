@@ -1,0 +1,42 @@
+html{
+    background-color: rgb(221, 225, 235);
+}
+
+th{
+    background-color: rgb(119, 135, 176);
+    text-align: middle;
+    padding: 2%;
+    color: whitesmoke;
+}
+
+.tcheader{
+    background-color: rgb(77, 89, 121);
+    color: whitesmoke;
+    padding: 5%;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 2%;
+}
+
+form{
+    padding: 5%;
+}
+
+.sheader{
+    background-color: rgb(77, 89, 121);
+    color: whitesmoke;
+    padding: 5%;
+    text-align: center;
+}
+.title, .name, .content, .category{
+    align-self: center;
+    padding: 2%;
+}
