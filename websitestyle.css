@@ -40,3 +40,10 @@ form{
     align-self: center;
     padding: 2%;
 }
+
+.mmbpheading{
+    background-color: rgb(77, 89, 121);
+    color: whitesmoke;
+    padding: 5%;
+    text-align: center;
+}
