@@ -47,3 +47,8 @@ form{
     padding: 5%;
     text-align: center;
 }
+
+img{
+    border-color: black;
+    padding: 1%;
+}
