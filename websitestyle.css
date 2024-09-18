@@ -83,3 +83,8 @@ li{
     list-style-type: none;
     padding: 5%;
 }
+
+tbody{
+    background-color: rgb(208, 217, 238);
+    text-align: left;
+}
