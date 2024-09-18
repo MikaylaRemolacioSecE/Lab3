@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(221, 225, 235);
+    background-color: rgb(208, 217, 238);
 }
 
 th{
@@ -51,4 +51,29 @@ form{
 img{
     border-color: black;
     padding: 1%;
+}
+
+.hheader{
+    background-color: rgb(77, 89, 121);
+    color: whitesmoke;
+    padding: 5%;
+    text-align: center;
+}
+
+nav{
+    list-style-type: none;
+    padding: auto;
+}
+
+a,b,c,d{
+    padding: 2%;
+    padding-inline: 5%;
+    background-color: rgb(114, 126, 159);
+    color: whitesmoke;
+}
+
+footer {
+    background-color: rgb(114, 126, 159);
+    color: whitesmoke;
+    text-align: center;
 }
