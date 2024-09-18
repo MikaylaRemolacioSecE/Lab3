@@ -60,20 +60,26 @@ img{
     text-align: center;
 }
 
-nav{
-    list-style-type: none;
-    padding: auto;
-}
-
 a,b,c,d{
     padding: 2%;
     padding-inline: 5%;
     background-color: rgb(114, 126, 159);
     color: whitesmoke;
+    text-align: center;
 }
 
 footer {
     background-color: rgb(114, 126, 159);
     color: whitesmoke;
     text-align: center;
+}
+
+.blog{
+    background-color: rgb(114, 126, 159);
+    color: whitesmoke;
+}
+
+li{
+    list-style-type: none;
+    padding: 5%;
 }
